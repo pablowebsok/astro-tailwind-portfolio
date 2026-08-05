@@ -2,14 +2,14 @@
 
 # Pablo MG — Portfolio
 
-[![Netlify Status](https://img.shields.io/netlify/1ad2be2e-13b8-4ae9-a52c-256fcc520054?style=for-the-badge&logo=netlify&logoColor=fff&label=Netlify)](https://pablomgdev.lat)
+[![Netlify Status](https://img.shields.io/netlify/1ad2be2e-13b8-4ae9-a52c-256fcc520054?style=for-the-badge&logo=netlify&logoColor=fff&label=Netlify)](https://pablomgdev.xyz)
 [![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=for-the-badge)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=for-the-badge)](https://tailwindcss.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)](https://typescriptlang.org)
 
 **Sitio web personal** construido con Astro — estático, rápido y fácil de personalizar.
 
-🔗 [Ver en vivo →](https://pablomgdev.lat/)
+🔗 [Ver en vivo →](https://pablomgdev.xyz/)
 
 </div>
 

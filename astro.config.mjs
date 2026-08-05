@@ -4,7 +4,7 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import partytown from "@astrojs/partytown";
 
-const siteUrl = "https://pablomgdev.lat";
+const siteUrl = "https://pablomgdev.xyz";
 
 export default defineConfig({
   integrations: [
