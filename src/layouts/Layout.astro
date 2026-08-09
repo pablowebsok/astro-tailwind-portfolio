@@ -18,8 +18,8 @@ interface Props {
 
 const { title, description, navLinks, author } = Astro.props
 
-const defaultSite = 'https://pablomgdev.xyz'
-const siteUrl = Astro.site?.href || defaultSite
+const defaultSite = 'https://pablomgdev.xyz/'
+const siteUrl = new URL(Astro.site || defaultSite).href
 const canonicalURL = new URL(Astro.url.pathname, siteUrl).href
 ---
 
