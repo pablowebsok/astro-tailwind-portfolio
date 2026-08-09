@@ -13,9 +13,25 @@ import eliwebImage from '../assets/eliweb.png'
 import florwebImage from '../assets/florweb.png'
 import olgaImage from '../assets/olga-addesso.png'
 import mariaveImage from '../assets/mariavecreativa.png'
+import portalOracularImage from '../assets/elportaloracular.png'
+import entreErasImage from '../assets/entreeras.png'
 import profileImage from '../assets/foto-pablo.jpg'
 
 const projects: ProjectProps[] = [
+  {
+    name: 'El Portal Oracular de Anna Luna',
+    summary:
+      'Plataforma digital para explorar el mundo de los oráculos, la intuición y el autoconocimiento. Un espacio visual y envolvente que acompaña cada proceso personal con experiencias y recursos de conexión interior.',
+    link: 'https://elportaloraculardeannaluna.com/',
+    image: portalOracularImage,
+  },
+  {
+    name: 'Entre Eras',
+    summary:
+      'Revista digital dedicada a la transición social, la permacultura y el bienestar integral. Un espacio editorial que reúne contenidos, experiencias y recursos para conectar comunidad, conciencia y nuevas formas de habitar.',
+    link: 'https://entreeras.com.ar/',
+    image: entreErasImage,
+  },
   {
     name: 'MariaVE Creativa',
     summary:
