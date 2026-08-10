@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /~partytown/
 
 Sitemap: https://pablomgdev.xyz/sitemap-index.xml

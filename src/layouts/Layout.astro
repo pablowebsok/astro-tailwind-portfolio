@@ -71,18 +71,51 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl).href
       }
     </script>
 
-    <!-- Google Analytics (GA4) con Partytown -->
-    <script
-      is:inline
-      type="text/partytown"
-      src="https://www.googletagmanager.com/gtag/js?id=G-06GL1V332X"></script>
-    <script is:inline type="text/partytown">
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
+    <!-- Google Analytics (GA4) cargado después de la ruta crítica -->
+    <script is:inline>
+      const analyticsId = 'G-06GL1V332X'
+      let analyticsLoaded = false
+
+      function loadAnalytics() {
+        if (analyticsLoaded) {
+          return
+        }
+
+        analyticsLoaded = true
+        window.dataLayer = window.dataLayer || []
+        function gtag() {
+          window.dataLayer.push(arguments)
+        }
+
+        window.gtag = gtag
+        gtag('js', new Date())
+        gtag('config', analyticsId)
+
+        const script = document.createElement('script')
+        script.async = true
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${analyticsId}`
+        document.head.appendChild(script)
       }
-      gtag('js', new Date())
-      gtag('config', 'G-06GL1V332X')
+
+      function scheduleAnalytics() {
+        if (typeof window.requestIdleCallback === 'function') {
+          window.requestIdleCallback(loadAnalytics, { timeout: 3000 })
+        } else {
+          window.setTimeout(loadAnalytics, 2000)
+        }
+      }
+
+      if (document.readyState === 'complete') {
+        scheduleAnalytics()
+      } else {
+        window.addEventListener('load', scheduleAnalytics, { once: true })
+      }
+
+      document.addEventListener('astro:page-load', () => {
+        if (analyticsLoaded) {
+          window.gtag('config', analyticsId, { page_path: window.location.pathname })
+        }
+      })
     </script>
 
     <ViewTransitions />
@@ -124,7 +157,6 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl).href
 
           elements.forEach(element => {
             element.dataset.observed = 'true'
-            element.style.willChange = 'transform, opacity'
             observer?.observe(element)
           })
         } catch (error) {

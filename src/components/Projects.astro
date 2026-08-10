@@ -18,7 +18,7 @@ const { title, projects, viewProject } = Astro.props
 <Section text={title} href="projects">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
     {
-      projects.map((project, index) => (
+      projects.map(project => (
         <div
           class="group relative flex flex-col overflow-hidden rounded-[2rem] bg-midnight/40 backdrop-blur-md transition-all duration-500 hover:shadow-aura hover:bg-midnight/60 opacity-0 translate-y-16 border border-primary/10"
           data-scroll-animation
@@ -30,8 +30,10 @@ const { title, projects, viewProject } = Astro.props
               alt={`Proyecto ${project.name} - ${project.summary.split('.')[0]}`}
               width={800}
               height={450}
-              loading={index < 2 ? 'eager' : 'lazy'}
-              fetchpriority={index < 2 ? 'high' : 'auto'}
+              widths={[320, 400, 640, 800]}
+              sizes="(min-width: 768px) 348px, calc(100vw - 40px)"
+              loading="lazy"
+              fetchpriority="auto"
               decoding="async"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-[#1c1917] via-transparent to-transparent opacity-60" />

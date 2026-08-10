@@ -17,7 +17,6 @@
     "validate": "node scripts/validate-build.js"
   },
   "dependencies": {
-    "@astrojs/partytown": "^2.1.7",
     "@astrojs/sitemap": "3.7.2",
     "@astrojs/tailwind": "^5.1.2",
     "@fontsource-variable/gabarito": "^5.1.0",
