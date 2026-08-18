@@ -179,23 +179,107 @@ export const translations = {
         title: 'Landing Pages de Alta Conversión',
         description:
           'Páginas diseñadas para captar clientes, presentar tus servicios o lanzar nuevos proyectos. Carga instantánea, estructura persuasiva y llamados a la acción claros.',
+        icon: '🎯',
       },
       {
         title: 'Tiendas Online con Tienda Nube',
         description:
           'Implementación y personalización de tiendas online listas para vender, con pasarelas de pago (MercadoPago), envíos y experiencia de compra fluida.',
+        icon: '🛍️',
       },
       {
         title: 'Sitios Web Profesionales a Medida',
         description:
           'Presencia digital a medida para profesionales, consultores y negocios. Portfolios, sitios institucionales y plataformas de servicios diseñadas para transmitir confianza.',
+        icon: '💻',
       },
       {
         title: 'Mantenimiento y Optimización Web',
         description:
           'Actualizaciones, mejoras continuas y soporte técnico para que tu sitio siempre esté seguro, actualizado y funcionando al máximo rendimiento.',
+        icon: '⚙️',
       },
     ],
+  },
+  experienceProof: {
+    title: 'Experiencia en proyectos reales',
+    description:
+      'Ya trabajé en proyectos de distintos rubros y necesidades, desde profesionales independientes y espacios de bienestar hasta servicios, ecommerce y plataformas digitales.',
+    categories: [
+      'Bienestar',
+      'Desarrollo personal',
+      'Servicios profesionales',
+      'Ecommerce',
+      'Proyectos digitales',
+    ],
+    note: 'Experiencia especialmente cercana a proyectos de bienestar, desarrollo personal y servicios.',
+    subnote:
+      'También trabajo con proyectos de otros rubros que necesitan una presencia digital profesional y personalizada.',
+  },
+  process: {
+    title: 'Cómo trabajo',
+    subtitle: 'Un proceso claro, desde la idea hasta tu web online.',
+    steps: [
+      {
+        step: '01',
+        title: 'Hablamos',
+        description: 'Me contás qué hacés, qué necesitás y qué querés lograr con tu web.',
+      },
+      {
+        step: '02',
+        title: 'Diseñamos',
+        description:
+          'Definimos la estructura, el estilo visual y las funcionalidades que necesita tu proyecto.',
+      },
+      {
+        step: '03',
+        title: 'Desarrollamos',
+        description:
+          'Transformo la propuesta en una web rápida, responsive y optimizada para ofrecer una buena experiencia.',
+      },
+      {
+        step: '04',
+        title: 'Publicamos',
+        description:
+          'Dejamos tu sitio online, funcionando correctamente y preparado para recibir visitas, consultas, reservas o ventas.',
+      },
+    ],
+  },
+  benefits: {
+    title: 'Más que una web',
+    subtitle: 'Una presencia digital pensada para que tu proyecto pueda crecer.',
+    items: [
+      {
+        title: 'Diseño profesional',
+        description:
+          'Una identidad visual coherente que transmite confianza y refleja la esencia de tu proyecto.',
+        icon: '✨',
+      },
+      {
+        title: 'Experiencia clara',
+        description:
+          'Una navegación intuitiva para que tus visitantes encuentren rápidamente lo que buscan.',
+        icon: '🧭',
+      },
+      {
+        title: 'Rendimiento y SEO',
+        description:
+          'Un sitio rápido, responsive y optimizado para buscadores y dispositivos móviles.',
+        icon: '⚡',
+      },
+      {
+        title: 'Más oportunidades',
+        description:
+          'Formularios, reservas, contacto, ventas y otras funcionalidades pensadas para facilitar la conexión con tus clientes.',
+        icon: '🌱',
+      },
+    ],
+  },
+  midCta: {
+    title: '¿Tenés una idea para tu proyecto?',
+    description: 'Contame qué necesitás y vemos juntos cómo llevarlo a la web.',
+    buttonText: 'Hablemos',
+    href: '#contact',
   },
   footer: {
     tagline: '',

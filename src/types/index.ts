@@ -32,10 +32,38 @@ export interface SpecialtyCardProps {
 export interface ServiceProps {
   title: string
   description: string
+  icon?: string
 }
 
 export interface SectionProps {
   text: string
   href: string
   class?: string
+}
+
+export interface ProcessStepProps {
+  step: string
+  title: string
+  description: string
+}
+
+export interface BenefitProps {
+  title: string
+  description: string
+  icon?: string
+}
+
+export interface ExperienceProofProps {
+  title: string
+  description: string
+  categories: readonly string[] | string[]
+  note: string
+  subnote: string
+}
+
+export interface MidCtaProps {
+  title: string
+  description: string
+  buttonText: string
+  href: string
 }
