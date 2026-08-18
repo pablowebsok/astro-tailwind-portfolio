@@ -5,7 +5,6 @@ import '@fontsource/be-vietnam-pro'
 import '@fontsource-variable/gabarito'
 import Footer from '@components/Footer.astro'
 import ScrollToTop from '@components/ScrollToTop.astro'
-import favicon from '../assets/foto-pablo.jpg'
 
 import Background from '@components/Background.astro'
 
@@ -31,7 +30,8 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl).href
     <meta name="author" content={author} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#080812" />
-    <link rel="icon" type="image/jpeg" href={favicon.src} />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
 

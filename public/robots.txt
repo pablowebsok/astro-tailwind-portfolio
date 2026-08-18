@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pablomgdev.xyz/sitemap-index.xml
+Sitemap: https://pablomgdev.xyz/sitemap.xml
