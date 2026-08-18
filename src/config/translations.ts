@@ -119,7 +119,7 @@ export const translations = {
     name: 'Pablo M.G.',
     specialty: 'Desarrollador Web Freelance',
     summary:
-      'Creo sitios Web profesionales, Landing Pages y Ecommerce a medida para Pymes y emprendedores de habla hispana en todo el mundo.',
+      'Diseño y desarrollo sitios Web profesionales, Landing Pages y tiendas online a medida para profesionales, emprendedores y proyectos independientes.',
     email: 'pablomg.developer@gmail.com',
     image: profileImage,
   },
@@ -133,22 +133,22 @@ export const translations = {
     title: 'Sobre mí',
     greeting: '¡Hola! Soy Pablo, Desarrollador Web Freelance. 👋',
     description:
-      'Ayudo a Pymes, emprendedores y profesionales de todo el mundo a crear una presencia digital efectiva. Trabajo de forma remota para ofrecer soluciones personalizadas que combinan un diseño atractivo con un desarrollo técnico sólido, impulsando resultados sin importar las fronteras.',
+      'Ayudo a profesionales, emprendedores y proyectos independientes a construir una presencia digital auténtica y funcional. Combino un diseño visual cuidado con un desarrollo técnico rápido y sólido, enfocado en conectar con tu audiencia, transmitir tu propuesta de valor y facilitar reservas o ventas.',
     image: profileImage,
     specialties: {
       title: 'Especialidades:',
-      design: 'Diseño Web profesional y responsive para todos los dispositivos.',
-      speed: 'Sitios Web ultrarrápidos que mejoran el posicionamiento en Google.',
-      automation: 'Sistemas de reservas, formularios y automatización de procesos.',
-      ecommerce: 'Tiendas online con Tienda Nube, integrando pagos, logística y gestión de stock.',
+      design: 'Diseño web intuitivo, profesional y adaptable a cualquier dispositivo.',
+      speed: 'Sitios ultrarrápidos y optimizados para Google (SEO y Core Web Vitals).',
+      automation: 'Integración de sistemas de reservas, formularios y automatizaciones.',
+      ecommerce: 'Tiendas online con Tienda Nube, pasarelas de pago y logística integrada.',
     },
     closing:
-      'Cada proyecto es único, y mi objetivo es crear una Web que refleje la esencia de tu negocio.',
-    cta: '¿Listo para crear tu página Web profesional? Hablemos.',
+      'Cada proyecto es único y mi objetivo es construir una web que refleje la esencia de tu trabajo.',
+    cta: '¿Listo para dar el siguiente paso con tu web? Hablemos.',
   },
   contact: {
     title: 'Contacto',
-    subtitle: '¿Tienes un proyecto en mente? Escríbeme y trabajemos juntos.',
+    subtitle: '¿Tenés un proyecto en mente o querés renovar tu web? Escribime y trabajemos juntos.',
     nameLabel: 'Nombre',
     emailLabel: 'Email',
     messageLabel: 'Mensaje',
@@ -159,15 +159,15 @@ export const translations = {
     title: 'Expansión Digital',
     items: [
       {
-        title: 'Desarrollo con Tecnologías Modernas',
+        title: 'Tecnología Moderna y Rápida',
         description:
-          'Trabajo con las últimas tecnologías para crear sitios Web rápidos, seguros y escalables que funcionan perfectamente en cualquier dispositivo.',
+          'Desarrollo con tecnologías modernas para lograr sitios rápidos, seguros y optimizados para cualquier dispositivo.',
         icon: '💻',
       },
       {
-        title: 'Diseño que Convierte',
+        title: 'Diseño con Propósito',
         description:
-          'Cada sitio Web está diseñado para convertir visitantes en clientes. Diseño UX/UI profesional que refleja la identidad de tu marca.',
+          'Cada web está pensada para transformar visitantes en clientes mediante una experiencia de usuario (UX/UI) clara, estética y alineada a tu identidad.',
         icon: '🎨',
       },
     ],
@@ -176,24 +176,24 @@ export const translations = {
     title: 'Servicios',
     items: [
       {
-        title: 'Landing Pages Profesionales',
+        title: 'Landing Pages de Alta Conversión',
         description:
-          'Landing Pages optimizadas para convertir visitantes en clientes. Diseños atractivos, carga rápida y llamados a la acción efectivos para tu negocio.',
+          'Páginas diseñadas para captar clientes, presentar tus servicios o lanzar nuevos proyectos. Carga instantánea, estructura persuasiva y llamados a la acción claros.',
       },
       {
         title: 'Tiendas Online con Tienda Nube',
         description:
-          'Implementación de tiendas online con Tienda Nube, integrando múltiples formas de pago, sistemas de logística y todo lo necesario para empezar a vender de inmediato.',
+          'Implementación y personalización de tiendas online listas para vender, con pasarelas de pago (MercadoPago), envíos y experiencia de compra fluida.',
       },
       {
-        title: 'Sitios Web para Pymes y Emprendedores',
+        title: 'Sitios Web Profesionales a Medida',
         description:
-          'Presencia digital profesional para tu empresa. Sitios corporativos, portfolios y blogs diseñados para comunicar el valor de tu negocio.',
+          'Presencia digital a medida para profesionales, consultores y negocios. Portfolios, sitios institucionales y plataformas de servicios diseñadas para transmitir confianza.',
       },
       {
-        title: 'Mantenimiento Web',
+        title: 'Mantenimiento y Optimización Web',
         description:
-          'Actualizaciones, modificaciones y soporte técnico continuo para tu sitio. Me ocupo de que tu Web siempre esté actualizada y funcionando perfectamente.',
+          'Actualizaciones, mejoras continuas y soporte técnico para que tu sitio siempre esté seguro, actualizado y funcionando al máximo rendimiento.',
       },
     ],
   },
@@ -211,7 +211,7 @@ export const translations = {
   seo: {
     title: 'Desarrollador Web Freelance | Pablo M.G.',
     description:
-      'Desarrollador Web Freelance. Creo páginas Web profesionales, Landing Pages, Tiendas Online con Tienda Nube y Sitios Web a medida para Pymes y Emprendedores de habla hispana. Servicio de Mantenimiento Web incluido.',
+      'Desarrollador Web Freelance. Diseño y desarrollo sitios Web a medida, Landing Pages y Tiendas Online para profesionales, emprendedores y proyectos independientes.',
     author: 'Pablo M.G.',
   },
 } as const
